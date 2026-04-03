@@ -6,10 +6,12 @@ M.S. in Applied Physics and Engineering with a focus on optical systems, image s
 
 ## Projects
 
-### DVS Power Model *(in progress)*
-Physics-based power model for Dynamic Vision Sensors (DVS), parameterized from the Lichtsteiner 2008 128×128 sensor. Models static vs dynamic power as a function of scene velocity, object size, background texture, and contrast threshold. Part of a broader CIS vs DVS sensor comparison study.
+### [Image Sensor Architecture: CIS vs DVS](./Image%20Sensor%20Architecture%20(CIS%20vs%20DVS)/)
+Group project comparing CMOS Image Sensors (CIS) and Dynamic Vision Sensors (DVS) across power consumption, efficiency, and tracking performance. Includes the full team's work: CIS behavioral model, DVS power model, scene modeling, and comparative analysis. *(DVS model in progress)*
 
 `Python` · `Sensor modeling` · `Event-based vision`
+
+---
 
 ### [Fourier Optics Simulation](./fourier-optics-simulation/)
 Simulates space-based vs ground-based telescope imaging using real Hubble Space Telescope data (M51 galaxy). Models diffraction-limited (Airy) and seeing-limited (Gaussian) PSFs, applies FFT-based convolution, and quantifies resolution loss via radially-averaged power spectra.
